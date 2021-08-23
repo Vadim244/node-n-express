@@ -10,5 +10,6 @@ const currentOS = {
     release: os.release(),
     totalMem: os.totalmem(),
     freeMem: os.freemem(),
+    const dif = totalMem - freeMem
 }
 console.log(currentOS)
