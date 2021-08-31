@@ -1,6 +1,5 @@
-//node_modules /
-//content / big.txt
-const names = require('./name')
-const sayHi = require('./utils')
-const data = require('./alt-flavor')
-console.log(names, sayHi, data)
+const _ = require('lodash')
+
+const items = [1, [2, [3, [4]]]]
+const newItems = _flattenDeep(items)
+console.log(newItems)
