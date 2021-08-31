@@ -1,22 +1,18 @@
 {
-  "name": "n-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "global.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vadim244/node-n-express.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Vadim244/node-n-express/issues"
-  },
-  "homepage": "https://github.com/Vadim244/node-n-express#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "tutorial",
+    "version": "1.0.0",
+    "description": "",
+    "main": "1-intro.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.20"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
 }
